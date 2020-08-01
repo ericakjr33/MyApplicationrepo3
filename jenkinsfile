@@ -27,7 +27,7 @@ pipeline {
       nexusArtifactUploader(
       nexusVersion: 'nexus3',
       protocol: 'http',
-      nexusUrl: 'http://ec2-3-23-218-159.us-east-2.compute.amazonaws.com:8081',
+      nexusUrl: 'ec2-3-23-218-159.us-east-2.compute.amazonaws.com:8081',
       groupId: 'myGroupId',
       version: '1.0-SNAPSHOT',
       repository: 'maven-snapshots',
